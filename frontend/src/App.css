@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sidebar-logo {
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+}
+
+.sidebar-logo img {
+  margin-right: 12px;
+}
+
+.sidebar-logo h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #324054;
+  padding-top: 12px;
+}
+
+.side-home {
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: Medium;
+  font-size: 16px;
+  color: #324054;
+  background-color: #ffffff;
+  height: 44px;
+}
+.side-home:hover {
+  background-color: #eff6ff;
+  color: #2d68fe;
+}
+.side-title {
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: Medium;
+  font-size: 16px;
+  color: #324054;
+  background-color: #ffffff;
+  height: 44px;
+}
+
+.side-home img {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+}
+
+.post-type {
+  align-items: center;
+  padding-left: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: Medium;
+  font-size: 16px;
+  color: #324054;
+  background-color: #ffffff;
+  height: 44px;
+}
+
+.post-type:hover {
+  background-color: #eff6ff;
+  color: #2d68fe;
+}
+
+.header {
+  font-family: 'Antonio', sans-serif;
+  font-weight: Medium;
+  font-size: 20px;
+  padding-top: 20px;
+}

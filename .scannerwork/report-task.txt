@@ -1,0 +1,6 @@
+projectKey=travelguard
+serverUrl=http://localhost:9000
+serverVersion=10.0.0.68432
+dashboardUrl=http://localhost:9000/dashboard?id=travelguard
+ceTaskId=AYguCh8q8Ifkj7t4X6p_
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYguCh8q8Ifkj7t4X6p_

@@ -1,0 +1,40 @@
+{
+  "name": "amazona",
+  "version": "1.0.0",
+  "description": "# Lessons",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basir/mern-amazona.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basir/mern-amazona/issues"
+  },
+  "homepage": "https://github.com/basir/mern-amazona#readme",
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "chart.js": "^4.3.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.28",
+    "mongoose": "^7.2.0",
+    "pdfkit": "^0.13.0",
+    "pdfmake": "^0.2.7",
+    "react-chartjs-2": "^5.2.0",
+    "react-icons": "^4.8.0",
+    "react-intersection-observer": "^9.4.3",
+    "selenium-webdriver": "^4.9.2"
+  },
+  "devDependencies": {
+    "cypress": "^12.12.0",
+    "sonarqube-scanner": "^3.0.1"
+  }
+}
